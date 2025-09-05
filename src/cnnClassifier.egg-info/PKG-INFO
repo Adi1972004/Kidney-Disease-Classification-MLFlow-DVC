@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Adi1972004/Kidney-Disease-Classification-MLFlow-DVC
+Author: Adi1972004
+Author-email: ps2419707@gmail.com
+Project-URL: Bug Tracker, https://github.com/Adi1972004/Kidney-Disease-Classification-MLFlow-DVC/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
 # Kidney-Disease-Classification-MLflow-DVC
 
 
