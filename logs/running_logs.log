@@ -76,3 +76,52 @@ x==========x]
 [2025-09-05 21:40:19,432: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-09-05 22:32:26,439: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 22:32:26,453: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 22:32:26,455: INFO: common: created directory at: artifacts]
+[2025-09-05 22:33:41,854: INFO: common: json file saved at: scores.json]
+[2025-09-05 22:36:42,132: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 22:36:42,136: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 22:36:42,137: INFO: common: created directory at: artifacts]
+[2025-09-05 22:37:55,422: INFO: common: json file saved at: scores.json]
+[2025-09-05 22:37:59,233: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-09-05 22:38:00,507: INFO: builder_impl: Assets written to: C:\Users\LENOVA\AppData\Local\Temp\tmpy5mf04pp\model\data\model\assets]
+[2025-09-05 23:10:11,268: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-05 23:10:11,271: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 23:10:11,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 23:10:11,275: INFO: common: created directory at: artifacts]
+[2025-09-05 23:10:11,276: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-05 23:10:11,276: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-05 23:10:25,369: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-09-05 23:10:26,423: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-05 23:10:26,423: INFO: main: *******************]
+[2025-09-05 23:10:26,425: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-09-05 23:10:26,425: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 23:10:26,425: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 23:10:26,430: INFO: common: created directory at: artifacts]
+[2025-09-05 23:10:26,430: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-05 23:10:28,208: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-05 23:10:29,885: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-09-05 23:10:29,959: INFO: main: *******************]
+[2025-09-05 23:10:29,963: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-09-05 23:10:29,965: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 23:10:29,967: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 23:10:29,968: INFO: common: created directory at: artifacts]
+[2025-09-05 23:10:29,969: INFO: common: created directory at: artifacts\training]
+[2025-09-05 23:23:55,887: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-09-05 23:23:55,889: INFO: main: *******************]
+[2025-09-05 23:23:55,889: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-09-05 23:23:55,893: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-05 23:23:55,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-05 23:23:55,894: INFO: common: created directory at: artifacts]
+[2025-09-05 23:24:52,540: INFO: common: json file saved at: scores.json]
+[2025-09-05 23:24:52,542: INFO: common: json file saved at: scores.json]
+[2025-09-05 23:24:52,542: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
