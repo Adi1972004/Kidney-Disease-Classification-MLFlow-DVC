@@ -175,3 +175,6 @@ DVC
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+# Flask app deployed on render
+	https://kidney-disease-classification-mlflow-dvc-48xp.onrender.com/
