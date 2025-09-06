@@ -4,6 +4,7 @@ import io
 from PIL import Image
 import numpy as np
 from flask_cors import CORS, cross_origin
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -64,4 +65,5 @@ def predictRoute():
         return jsonify({"result": "Prediction failed."}), 400
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug=True)
+    port = int(os.environ.get("PORT", 5000))   # Render assigns the port
+    app.run(host="0.0.0.0", port=port, debug=False)  # Production-safe
